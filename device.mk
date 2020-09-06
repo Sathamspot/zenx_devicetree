@@ -102,7 +102,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RealmeCameraHelper
 
-# camera Motor
+# Camera Motor
 PRODUCT_PACKAGES += \
     vendor.lineage.camera.motor@1.0-service.realme_sdm710
 
@@ -142,7 +142,7 @@ PRODUCT_PACKAGES += \
     vendor.oppo.hardware.biometrics.fingerprint@2.1
 
 PRODUCT_COPY_FILES += \
-    vendor/xtended/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:vendor/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+    vendor/zenx/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:vendor/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
 
 # FM
 PRODUCT_PACKAGES += \
