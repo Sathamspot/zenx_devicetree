@@ -614,4 +614,8 @@
     <!-- Whether device has screen with higher aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
 
+    <!-- Add Realmeparts To ZenHub-->
+    <string name="config_device_parts_package_name" translatable="false">org.lineageos.settings.device</string>
+    <string name="config_device_parts_package_activity" translatable="false">org.lineageos.settings.device.DeviceSettingsActivity</string>
+
 </resources>
