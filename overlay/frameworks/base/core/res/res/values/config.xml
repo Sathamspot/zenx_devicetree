@@ -621,4 +621,7 @@
     <string name="config_device_parts_package_name" translatable="false">org.lineageos.settings.device</string>
     <string name="config_device_parts_package_activity" translatable="false">org.lineageos.settings.device.DeviceSettingsActivity</string>
 
+    <!-- Whether device supports in-display fingerprint when screen is turned off -->
+    <bool name="config_supportsInDisplayFingerprintGesture">true</bool>
+
 </resources>
