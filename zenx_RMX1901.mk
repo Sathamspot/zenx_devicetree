@@ -7,8 +7,9 @@
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Inherit some common Lineage stuff
+# Inherit some common ZenX stuff
 $(call inherit-product, vendor/zenx/config/common_full_phone.mk)
+SKIP_ABI_CHECKS=true
 TARGET_GAPPS_ARCH := arm64
 WITH_GAPPS := true
 IS_PHONE := true
